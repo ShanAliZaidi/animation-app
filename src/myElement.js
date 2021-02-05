@@ -13,7 +13,7 @@ const MyElement = () => {
 
       const [index,setIndex] = useState(0);
       useEffect(() => {
-        const intervalId = setInterval(() =>
+            setInterval(() =>
           setIndex(index => index + 1),
           10000
         );
